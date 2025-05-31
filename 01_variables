@@ -1,0 +1,8 @@
+const accountId = 12122
+let accountName = "Satyam"
+var accountEmail = "Satyam@gmail.com"
+let accountNumber
+
+console.table([accountId,accountName,accountEmail, accountNumber]);
+
+// prefer to use let // 
