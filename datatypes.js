@@ -23,3 +23,7 @@ console.log(isBool);
 let a;
 const b = String(a)
 console.log(typeof(b));
+
+let nullNumber = null;
+console.log(nullNumber);
+console.log(typeof(nullNumber));
