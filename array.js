@@ -37,3 +37,25 @@ const s2 = Arr1.splice(1,3) //remove the range of element from the array
 console.log(`${s2}`)
 
 console.log(`C ${Arr1}`)
+
+
+//concat
+
+const a1 = [1,2]
+const a2 = [3,4]
+const r1 = a1.concat(a2)
+console.log(r1); // or use spread operator to use single element
+
+const result = [...a1,...a2]
+console.log(result);
+
+const another_array = [1,2,[3,4],[5,6,[7,8,9]]]
+const real_array = another_array.flat(Infinity)
+console.log(real_array);
+
+
+let a= 100
+let b= 200
+let c= 300
+
+console.log(Array.of(a,b,c));
