@@ -29,3 +29,40 @@ obj.greetings = function(){
 console.log(obj.greetings());
 
 
+const tinder = {}
+
+tinder.id = "abc11"
+tinder.dating = "false"
+
+console.log(tinder);
+
+let myName = "Satyam"
+const regularUser = {
+    name : myName,
+    fullName : {
+        regularUsername : {
+            firstname : "Satyam",
+            lastname : "Singh"
+        }
+    }
+}
+console.log(regularUser);
+
+console.log(regularUser.fullName.regularUsername.firstname);
+
+
+const obj1= {1:"1",2:"2"}
+const obj2= {3:"3",4:"4"}
+
+// to merge to objects 
+
+// const obj3 = Object.assign({} , obj1, obj2)
+
+//or 
+const obj3 = {...obj1, ...obj2}
+
+console.log(obj3);
+
+console.log(Object.keys(obj3));  // returns array
+
+console.log(obj3.hasOwnProperty("13"));
