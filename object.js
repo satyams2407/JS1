@@ -70,4 +70,3 @@ console.log(obj3.hasOwnProperty("13"));
 const {1 : one} = obj3
 console.log(1);
 console.log(one);
-console.log(one);
